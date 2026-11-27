@@ -1,0 +1,177 @@
+# CRM Data File - Core Java CRM Storage
+# Generated: 2026-10-01
+
+[CUSTOMER]
+type=BUSINESS
+id=C002
+name=Priya Nair
+email=priya.nair@nexustech.com
+phone=9123456780
+status=PROSPECT
+category=REGULAR
+companyName=Nexus Tech Solutions Pvt Ltd
+gstNumber=29AABCN1234F1Z5
+industry=Information Technology
+
+[INTERACTION]
+type=EMAIL
+id=I003
+date=2026-09-23
+notes=Sent introductory portfolio deck and case studies
+subject=Enterprise Solutions Portfolio
+recipientEmail=priya.nair@nexustech.com
+
+[INTERACTION]
+type=CALL
+id=I004
+date=2026-09-29
+notes=Reviewed cloud infrastructure requirements and budget constraints
+duration=40
+callPhone=9123456780
+
+[DEAL]
+id=D002
+title=AI Analytics Suite Implementation
+amount=420000.0
+stage=NEGOTIATION
+closeDate=2026-10-21
+
+[DEAL]
+id=D003
+title=Legacy Support Renewal
+amount=75000.0
+stage=WON
+closeDate=2026-09-16
+
+[FOLLOWUP]
+id=F003
+dueDate=2026-10-06
+description=Schedule technical demo with CTO and engineering leads
+completed=false
+
+[CUSTOMER]
+type=INDIVIDUAL
+id=C001
+name=Aarav Sharma
+email=aarav.sharma@example.com
+phone=9876543210
+status=ACTIVE
+category=VIP
+address=42 MG Road, Bengaluru
+age=29
+
+[INTERACTION]
+type=MEETING
+id=I001
+date=2026-09-21
+notes=Discussed enterprise product licensing requirements
+location=Bangalore Regional Office
+attendees=Aarav Sharma,Tech Sales Lead
+
+[INTERACTION]
+type=CALL
+id=I002
+date=2026-09-26
+notes=Follow-up discussion on customized quote and deployment timeline
+duration=25
+callPhone=9876543210
+
+[DEAL]
+id=D001
+title=Cloud Migration Contract
+amount=150000.0
+stage=NEGOTIATION
+closeDate=2026-10-16
+
+[FOLLOWUP]
+id=F001
+dueDate=2026-10-04
+description=Send finalized SLA contract and legal terms
+completed=true
+
+[FOLLOWUP]
+id=F002
+dueDate=2026-09-29
+description=Initial discovery questionnaire review
+completed=true
+
+[CUSTOMER]
+type=BUSINESS
+id=C004
+name=Vikram Malhotra
+email=vikram@apexlogistics.in
+phone=9811223344
+status=ACTIVE
+category=VIP
+companyName=Apex Global Logistics Ltd
+gstNumber=27AAACA9876E1Z2
+industry=Supply Chain & Logistics
+
+[INTERACTION]
+type=MEETING
+id=I006
+date=2026-09-11
+notes=Quarterly account review and supply chain analytics sync
+location=Mumbai HQ Boardroom
+attendees=Vikram Malhotra,Operations VP,Account Director
+
+[INTERACTION]
+type=EMAIL
+id=I007
+date=2026-09-19
+notes=Sent customized fleet tracking API documentation
+subject=API Specs & Integration Guide
+recipientEmail=vikram@apexlogistics.in
+
+[DEAL]
+id=D005
+title=Fleet Management ERP Integration
+amount=850000.0
+stage=WON
+closeDate=2026-09-26
+
+[DEAL]
+id=D006
+title=IoT Sensor Expansion Project
+amount=310000.0
+stage=NEGOTIATION
+closeDate=2026-11-15
+
+[FOLLOWUP]
+id=F005
+dueDate=2026-10-11
+description=Conduct post-deployment customer satisfaction interview
+completed=false
+
+[CUSTOMER]
+type=INDIVIDUAL
+id=C003
+name=Rohan Verma
+email=rohan.verma@example.com
+phone=9988776655
+status=LEAD
+category=NEW
+address=15 Park Street, Kolkata
+age=34
+
+[INTERACTION]
+type=CALL
+id=I005
+date=2026-09-30
+notes=Inbound inquiry regarding SaaS subscription plans
+duration=15
+callPhone=9988776655
+
+[DEAL]
+id=D004
+title=Annual SaaS Pro Tier
+amount=24000.0
+stage=NEW
+closeDate=2026-10-31
+
+[FOLLOWUP]
+id=F004
+dueDate=2026-10-03
+description=Send subscription pricing tier comparison chart
+completed=false
+

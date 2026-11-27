@@ -1,0 +1,26 @@
+# Compiled bytecode and output directories
+out/
+bin/
+*.class
+
+# Packaged binaries
+*.jar
+*.war
+*.ear
+
+# Temporary & test files
+data/test_*.txt
+data/automated_*.txt
+sources.txt
+
+# IDE / Editor configuration files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS generated files
+.DS_Store
+Thumbs.db
